@@ -1,0 +1,260 @@
+@media (max-width: 1050px) {
+    .page__main {
+        padding-top: 150px;
+    }
+
+    .apply__card {
+        width: 165px;
+        height: 215px;
+    }
+
+    .meta-links__inner {
+        justify-content: center;
+    }
+
+    .footer__inner {
+        flex: 0 0 100%;
+    }
+
+    .footer__info {
+        margin: 0 0 30px 0;
+
+        max-width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .footer-info__text {
+        max-width: 80%;
+        text-align: center;
+    }
+
+    .footer__menu {
+        justify-content: space-evenly;
+    }
+
+    .footer-menu__body {
+        margin-bottom: 30px;
+        
+        max-width: 125px;
+    }
+
+    .footer-menu__title {
+        text-align: center;
+    }
+
+    .footer-menu__list {
+        text-align: center;
+    }
+
+    .footer-menu__link {
+        text-align: center;
+    }
+
+    .footer__copyright {
+        flex-direction: column;
+    }
+}
+
+
+
+@media (max-width: 854px) {
+    .header {
+        padding: 30px 0;
+    }
+
+    .header-menu__list {
+        display: none;
+    }
+
+    .header__btn {
+        display: none;
+    }
+
+    .header__burger {
+        display: flex;
+    }
+
+    .title {
+        margin-bottom: 20px;
+
+        text-align: center;
+
+        font-size: calc(26px + (6 + 6 * 0.7) * ((100vw - 320px) / 1920));
+    }
+
+    .page__main {
+        padding-top: 150px;
+    }
+
+    .apply__card {
+        margin: 0;
+    }
+
+    .ciptakan__inner {
+        display: block;
+    }
+
+    .ciptakan__content {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ciptakan__images-adapt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin: 20px 0 -70px;
+    }
+
+    .ciptakan__images {
+        display: none;
+    }
+
+    .ciptakan__text {
+        text-align: center;
+    }
+
+    .ciptakan__row {
+        max-width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+
+}
+
+
+
+@media (max-width: 767px) {
+
+    .page__main {
+        padding-top: 100px;
+    }
+
+    .main-block__body{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+
+    }
+
+    .main-block__title {
+        margin-bottom: 0;
+        
+        text-align: center;
+
+        font-size: calc(26px + (22 + 22 * 0.7) * ((100vw - 320px) / 1920));
+    }
+
+    .main-block__img-desktop {
+        display: none;
+    }
+    
+    .main-block__img-adapt {
+        display: block;
+        margin: 30px 0 30px 25px;
+    }
+
+    .main-block__text {
+        text-align: center;
+        font-size: calc(14px + (2 + 2 * 0.7) * ((100vw - 320px) / 1920));
+    }
+
+    .main-block__buttons {
+        justify-content: center;
+    }
+
+    .development__body {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .development__images {
+        display: none;
+    }
+
+    .development__images-adapt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        max-width: 458px;
+
+        margin: 0 10px 10px 20px;
+    }
+
+    .development__text {
+        margin-bottom: -20px;
+
+        text-align: center;
+    }
+
+    .start__title {
+        font-size: calc(24px + (24 + 24 * 0.7) * ((100vw - 320px) / 1920));
+    }
+
+    .meta-links__title {
+        font-size: calc(18px + (18 + 18 * 0.7) * ((100vw - 320px) / 1920));
+    }
+
+    .meta-links__text {
+        font-size: calc(14px + (2 + 2 * 0.7) * ((100vw - 320px) / 1920));
+    }
+
+}
+
+@media (max-width: 690px) {
+    .apply__card {
+        width: 150px;
+        height: 200px;
+    }
+
+    .meta-link {
+        padding: 0 10px 0 20px;
+        max-height: 100%;
+    }
+}
+
+@media (max-width: 405px) {
+
+    .main-block__explore-btn {
+        margin: 0 20px 30px;
+    }
+
+    .main-block__learn-btn {
+        margin: 0 20px 30px;
+    }
+
+    .link img {
+        max-width: 50px;
+    }
+
+    .meta-links__btn {
+        margin-right: 20px;
+
+        padding: 12px 20px;
+
+        font-size: 12px;
+    }
+
+    .footer-menu__body {
+        margin: 0 20px;     
+        max-width: 170px;
+    }
+}
